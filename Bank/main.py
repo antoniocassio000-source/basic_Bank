@@ -15,9 +15,10 @@ banco_1.clients.extend([cliente1,cliente2])
 banco_1.accounts.extend([conta1,conta2])
 
 if banco_1.authenticate(cliente1,conta1):
-        b.deposit(123)
-        b.withdraw(123)
+        conta1.deposit(123)
+        conta1.withdraw(123)
 
 if banco_1.authenticate(cliente2, conta2):
-        z.deposit(12635)
-        z.withdraw(1231)
+        conta2.deposit(12635)
+
+        conta2.withdraw(1231)
